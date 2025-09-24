@@ -7,7 +7,7 @@ This project aims to identifying customers who are likely to churn based off of 
 ## Key Features
 - End-to-End ML Pipeline (EDA -> Feature Engineering -> Modeling)
 - Balanced Handling of Class Imbalance using SMOTE
-- Multiple Models Compared Against (Random Forest, XGBoost)
+- Multiple Models Compared Against (Logistic Regression, Random Forest, XGBoost)
 - Buissness-oriented engineered features (e.g. Recent Engagement Flag, Per-Order Incentives)
 - Evaluation with AUC-ROC, PR_AUC, Recall, Confusion Matrix, Brier Score
 - Model Interpretability with Correlation Insights & Feature Analysis
