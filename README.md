@@ -1,0 +1,33 @@
+# Customer Churn Prediction for E-commerce
+Predicting which customers will stop purchasing, based off of behaviorial and demographic data.
+
+## Overview
+This project aims to identifying customers who are likely to churn based off of behaviorial, demographic, and transactional features. Churn risk is predicted using classification models, providing useful business insights and decision-making
+
+## Key Features
+- End-to-End ML Pipeline (EDA -> Feature Engineering -> Modeling)
+- Balanced Handling of Class Imbalance using SMOTE
+- Multiple Models Compared Against (Random Forest, XGBoost)
+- Buissness-oriented engineered features (e.g. Recent Engagement Flag, Per-Order Incentives)
+- Evaluation with AUC-ROC, Precision, Recall, Confusion Matrix
+- Model Interpretability with Correlation Insights & Feature Analysis
+
+## Tools
+- Python (Pandas, Numpy, Matplotlib)
+- Scikit-learn, XGBoost, imbalanced-learn
+- Jupyter Notebook
+
+## Project Structure
+- eda.ipynb - Exploratory Data Analysis
+- feature_engineering.ipynb - Feature Creation, Encoding, Handling Missing Values
+- modeling.ipynb - Pipelines, Model Comparison, Evaluation
+- data/ - Files used for Modeling
+- models/ - Saved Models 
+- README.md - Project Documentation
+
+## Results
+- XGBoost achieved 99.1% accuracy
+- Top Predictors: 'Tenure' , 'AvgOrdersPerMaritalStatus' 
+
+
+
