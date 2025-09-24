@@ -9,7 +9,7 @@ This project aims to identifying customers who are likely to churn based off of 
 - Balanced Handling of Class Imbalance using SMOTE
 - Multiple Models Compared Against (Random Forest, XGBoost)
 - Buissness-oriented engineered features (e.g. Recent Engagement Flag, Per-Order Incentives)
-- Evaluation with AUC-ROC, Precision, Recall, Confusion Matrix
+- Evaluation with AUC-ROC, PR_AUC, Recall, Confusion Matrix, Brier Score
 - Model Interpretability with Correlation Insights & Feature Analysis
 
 ## Tools
