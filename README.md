@@ -26,8 +26,12 @@ This project aims to identifying customers who are likely to churn based off of 
 - README.md - Project Documentation
 
 ## Results
-- XGBoost achieved 99.1% accuracy
-- Top Predictors: 'Tenure' , 'AvgOrdersPerMaritalStatus' 
+| Metric       | Logistic Reg | Random Forest | XGBoost |
+|--------------|--------------|---------------|---------|
+| PR-AUC       | 0.48         | 0.89          | 0.92    |
+| Brier Score  | 0.09         | 0.02          | 0.01    |
+| AUC-ROC      | 0.87         | 0.99          | 0.99    |
+| Calibrated   | Yes          | Yes           | Yes     | 
 
 
 
