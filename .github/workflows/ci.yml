@@ -40,9 +40,10 @@ jobs:
         run: |
           if [ -d src ]; then mypy src; else echo "No src/ dir; skipping mypy"; fi
 
-      - name: run tests
+      - name: notebook tests
         run: |
-          pytest -q
+          pip install nbmake
+          pytest --nbmake notebooks/
 
       - name: Upload coverage artifact
         uses: actions/upload-artifact@v4
