@@ -40,10 +40,9 @@ jobs:
         run: |
           if [ -d src ]; then mypy src; else echo "No src/ dir; skipping mypy"; fi
 
-      - name: Tests
+      - name: run tests
         run: |
-          coverage run -m pytest
-          coverage xml
+          pytest -q
 
       - name: Upload coverage artifact
         uses: actions/upload-artifact@v4
